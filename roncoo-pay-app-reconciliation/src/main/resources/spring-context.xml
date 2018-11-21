@@ -17,5 +17,4 @@
 	<aop:aspectj-autoproxy proxy-target-class="true" />
 
 	<import resource="classpath:spring/spring-context-service.xml" />
-	<import resource="spring-task.xml"/>
 </beans>
