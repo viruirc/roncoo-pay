@@ -11,7 +11,7 @@
    <bean id="reconciliationTask" class="com.roncoo.pay.app.reconciliation.ReconciliationTask" /> 
    <task:scheduled-tasks>
        <!-- 每天上午10点15分触发 -->
-       <task:scheduled ref="reconciliationTask" method="main" cron="0 15 10 * * ?" />
+       <task:scheduled ref="reconciliationTask" method="main" cron="0/10 * * * * ?" />
    </task:scheduled-tasks>
    
    
